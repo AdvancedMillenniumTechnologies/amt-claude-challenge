@@ -1,6 +1,6 @@
 # AMT Claude Upskilling Challenge
 
-A two-week challenge to level up how AMT developers use Claude. Complete a course, build something real, and add it to this shared library.
+A month-long challenge to level up how AMT developers use Claude. Complete a course, build something real, and add it to this shared library.
 
 By the end, this repo becomes an AMT-wide collection of reusable Claude Code assets — skills, subagents, and MCP integrations — that anyone in the org can pull from.
 
@@ -38,7 +38,7 @@ Every participant submits three things:
 
 Open a pull request into `main`. A reviewer will check it and merge.
 
-**Deadline:** _<set date — 2 weeks from launch>_
+**Deadline:** Friday, October 9, 2026
 
 ---
 
