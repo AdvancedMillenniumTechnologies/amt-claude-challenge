@@ -261,8 +261,7 @@
     { key: "artifact", glyph: "{}", label: "build" }
   ];
 
-  // Fallback sample data so the page renders even without leaderboard.json
-  const SAMPLE = {
+  const DATA = {
     challenge: "AMT Claude Upskilling Challenge",
     deadline: "2026-10-09",
     participants: [
@@ -274,7 +273,6 @@
     ]
   };
 
-  let DATA = null;
   let filter = "all";
 
   const score = p => STAGES.reduce((s, st) => s + (p[st.key] ? PTS[st.key] : 0), 0);
@@ -345,7 +343,7 @@
 
     document.getElementById("foot").innerHTML =
       `points: course +40 · linkedin +20 · build +40 &nbsp;|&nbsp; ` +
-      `update <a href="./leaderboard.json">leaderboard.json</a> to change standings`;
+      `edit the data block in leaderboard.html to change standings`;
   }
 
   function fmtDate(iso) {
@@ -368,11 +366,7 @@
     });
   });
 
-  // Load real data if present, else sample
-  fetch("./leaderboard.json", { cache: "no-store" })
-    .then(r => { if (!r.ok) throw new Error(); return r.json(); })
-    .then(d => { DATA = d; render(); })
-    .catch(() => { DATA = SAMPLE; render(); });
+  render();
 </script>
 </body>
 </html>

@@ -69,29 +69,22 @@ A PR gets merged when it has all three:
 
 ### Updating the leaderboard on merge
 
-Edit `leaderboard.json`. Find the participant (add them if they're new) and set the milestones they've now met:
+Edit the `DATA.participants` block in `leaderboard.html`. Find the participant (add them if they're new) and set the milestones they've now met:
 
-```json
-{
-  "name": "govind",
-  "track": "A",
-  "course": true,
-  "linkedin": true,
-  "artifact": true,
-  "completedDate": "2026-09-15"
-}
+```js
+{ name: "govind", track: "A", course: true, linkedin: true, artifact: true, completedDate: "2026-09-15" }
 ```
 
 - Flip `course` / `linkedin` / `artifact` to `true` as each is confirmed.
 - Set `completedDate` (YYYY-MM-DD) only once **all three** are true.
 - Commit directly to `main`:
   ```bash
-  git add leaderboard.json
+  git add leaderboard.html
   git commit -m "Leaderboard: <name> completed"
   git push
   ```
 
-The published page (GitHub Pages) picks up the change on next load. Everyone who reaches 100 shares rank #1 — no single winner unless only one person finishes.
+`leaderboard.html` is self-contained, so reopening the file (or refreshing it if hosted) shows the change immediately. Everyone who reaches 100 shares rank #1 — no single winner unless only one person finishes.
 
 ---
 

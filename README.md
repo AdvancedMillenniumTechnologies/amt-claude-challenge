@@ -42,6 +42,12 @@ Open a pull request into `main`. A reviewer will check it and merge.
 
 ---
 
+## Leaderboard
+
+`leaderboard.html` is a single self-contained file — open it directly in a browser, no server or build step needed. Standings are updated by editing the data block at the top of its script.
+
+---
+
 ## Ground rule: make it reusable
 
 Don't build a throwaway toy. Build something the next person can actually use.
