@@ -7,12 +7,12 @@
 
 ## Course(s) completed
 
-- <course name> — <completion date>
+- Claude Code in Action (Claude Academy) — 2026-10-08
 
 ## Proof
 
-- **Completion badge:** <screenshot filename in this folder, or link>
-- **LinkedIn post:** <link>
+- **Completion badge:** [claudeAcademy.png](./claudeAcademy.png)
+- **LinkedIn post:** https://lnkd.in/p/eXRQQA69
 
 ## My artifact
 
