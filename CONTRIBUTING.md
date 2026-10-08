@@ -69,22 +69,13 @@ A PR gets merged when it has all three:
 
 ### Updating the leaderboard on merge
 
-Edit the `DATA.participants` block in `leaderboard.html`. Find the participant (add them if they're new) and set the milestones they've now met:
+Standings live on the [Claude Challenge Leaderboard](https://claude.ai/artifact/MrPntztnUgxnhdRwF8TGhw), not in this repo — there's nothing to edit or push.
 
-```js
-{ name: "govind", track: "A", course: true, linkedin: true, artifact: true, completedDate: "2026-09-15" }
-```
+- Open the link and use the "Update standings" panel to find the participant (or add them, if they're new).
+- Flip `course` / `linkedin` / `artifact` as each is confirmed; the completion date fills in automatically once all three are checked.
+- The board updates live for everyone watching — no commit, no refresh needed.
 
-- Flip `course` / `linkedin` / `artifact` to `true` as each is confirmed.
-- Set `completedDate` (YYYY-MM-DD) only once **all three** are true.
-- Commit directly to `main`:
-  ```bash
-  git add leaderboard.html
-  git commit -m "Leaderboard: <name> completed"
-  git push
-  ```
-
-`leaderboard.html` is self-contained, so reopening the file (or refreshing it if hosted) shows the change immediately. Everyone who reaches 100 shares rank #1 — no single winner unless only one person finishes.
+Write access is restricted to whoever reviews PRs; everyone else has view-only access by design. Everyone who reaches 100 points shares rank #1 — no single winner unless only one person finishes.
 
 ---
 

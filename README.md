@@ -44,7 +44,9 @@ Open a pull request into `main`. A reviewer will check it and merge.
 
 ## Leaderboard
 
-`leaderboard.html` is a single self-contained file — open it directly in a browser, no server or build step needed. Standings are updated by editing the data block at the top of its script.
+Live standings: **[Claude Challenge Leaderboard](https://claude.ai/artifact/MrPntztnUgxnhdRwF8TGhw)**
+
+It's a live page, not a file in this repo — open the link and it's current, no pulling or rebuilding. Everyone gets view-only access; only the PR reviewer can update it, directly on the page as merges happen.
 
 ---
 
