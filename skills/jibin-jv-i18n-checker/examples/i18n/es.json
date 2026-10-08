@@ -1,0 +1,18 @@
+{
+  "app": {
+    "title": "Inventario",
+    "welcome": "¡Bienvenido de nuevo, {{name}}!"
+  },
+  "orders": {
+    "count": "Tienes {{count}} pedidos",
+    "empty": "Aún no hay pedidos",
+    "status": {
+      "open": "Abierto",
+      "closed": "Cerrado"
+    }
+  },
+  "errors": {
+    "generic": "Algo salió mal",
+    "404": "Página no encontrada"
+  }
+}

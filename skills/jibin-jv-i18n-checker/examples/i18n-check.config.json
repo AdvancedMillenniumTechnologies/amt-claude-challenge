@@ -1,0 +1,6 @@
+{
+  "baseLocale": "en.json",
+  "targets": [
+    { "name": "demo", "dir": "i18n", "languages": null }
+  ]
+}

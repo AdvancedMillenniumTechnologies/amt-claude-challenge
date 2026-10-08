@@ -1,0 +1,18 @@
+{
+  "app": {
+    "title": "Inventory",
+    "welcome": "Welcome back, {{name}}!"
+  },
+  "orders": {
+    "count": "You have {{count}} orders",
+    "empty": "No orders yet",
+    "status": {
+      "open": "Open",
+      "closed": "Closed"
+    }
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "404": "Page not found"
+  }
+}

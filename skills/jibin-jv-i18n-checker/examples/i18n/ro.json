@@ -1,0 +1,18 @@
+{
+  "app": {
+    "title": "Inventar",
+    "welcome": "Bine ai revenit, {{name}}!"
+  },
+  "orders": {
+    "count": "Ai {{count}} comenzi",
+    "empty": "Nicio comandă încă",
+    "status": {
+      "open": "Deschisă",
+      "closed": "Închisă"
+    }
+  },
+  "errors": {
+    "generic": "Ceva nu a mers bine",
+    "404": "Pagina nu a fost găsită"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "app": {
+    "title": "Inventaire",
+    "welcome": "Bon retour, {{nom}} !"
+  },
+
+  "orders": {
+    "count": "Vous avez {{count}} commandes",
+    "empty": "",
+    "legacy": "Ancien format",
+    "status": {
+      "open": "Ouvert"
+    }
+  },
+  "errors": {
+    "generic": "Une erreur est survenue",
+    "404": "Page introuvable"
+  }
+}
