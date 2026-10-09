@@ -1,0 +1,25 @@
+{
+  "name": "gitlab-mr-mcp",
+  "version": "1.2.0",
+  "description": "Local MCP server for checking GitLab merge requests",
+  "type": "module",
+  "bin": {
+    "gitlab-mr-mcp": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "inspect": "npx @modelcontextprotocol/inspector node build/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
