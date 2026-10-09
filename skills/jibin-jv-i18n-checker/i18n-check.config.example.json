@@ -1,0 +1,19 @@
+{
+  "baseLocale": "en.json",
+  "interpolation": ["\\{\\{[^{}]+\\}\\}"],
+  "rules": {
+    "duplicateKeys": "error",
+    "missingKeys": "error",
+    "extraKeys": "error",
+    "order": "error",
+    "lineCount": "error",
+    "blankLines": "error",
+    "interpolation": "error",
+    "emptyValues": "warn",
+    "untranslated": "off"
+  },
+  "targets": [
+    { "name": "da", "dir": "apps/da/src/assets/i18n", "languages": null },
+    { "name": "four-c", "dir": "apps/four-c/src/assets/i18n", "languages": ["es.json", "fr.json", "uk.json"] }
+  ]
+}
