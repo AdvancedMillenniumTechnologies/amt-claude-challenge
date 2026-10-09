@@ -2,7 +2,7 @@
 
 ## Track
 
-* [ ] Track B — Claude.ai web (free)
+* [ ] Track B — .ai web (free)
 
 ## Course(s) completed
 
@@ -16,6 +16,8 @@
 * **LinkedIn post:** https://lnkd.in/p/g_gRmj7a
 
 ## My artifact
+
+ **PR:**  https://github.com/AdvancedMillenniumTechnologies/amt-claude-challenge/pull/14
 
 ### The task
 
