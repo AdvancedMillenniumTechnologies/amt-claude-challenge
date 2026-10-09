@@ -11,13 +11,13 @@
 
 ## Proof
 
-* **Claude 101:** https://academy.claude.com/verify/fc9451c73cc81a6b4e108f709229f1b5
-* **AI Fluency:** https://academy.claude.com/verify/9e796caf61a286b442cbc628b8ffc8a6
-* **LinkedIn post:** https://lnkd.in/p/g_gRmj7a
+* Claude 101: https://academy.claude.com/verify/fc9451c73cc81a6b4e108f709229f1b5
+* AI Fluency: https://academy.claude.com/verify/9e796caf61a286b442cbc628b8ffc8a6
+* LinkedIn post: https://lnkd.in/p/g_gRmj7a
 
 ## My artifact
 
- **PR:**  https://github.com/AdvancedMillenniumTechnologies/amt-claude-challenge/pull/14
+PR:  https://github.com/AdvancedMillenniumTechnologies/amt-claude-challenge/pull/14
 
 ### The task
 
@@ -36,7 +36,7 @@ After completing these courses, I have a better understanding of how to use AI e
 
 ### What I learned
 
-* **Better prompts:** Providing relevant code, error messages, and expected behaviour helps AI generate more accurate and useful suggestions.
-* **Critical thinking:** AI-generated solutions may not always fit the existing implementation, so reviewing the logic, considering potential side effects, and testing changes are essential.
-* **Task breakdown:** Breaking complex problems into smaller steps makes it easier to investigate issues and evaluate possible solutions.
-* **Responsible AI use:** AI can assist with development, but the developer remains responsible for validating the output and ensuring the final implementation works as expected.
+* Better prompts: Providing relevant code, error messages, and expected behaviour helps AI generate more accurate and useful suggestions.
+* Critical thinking: AI-generated solutions may not always fit the existing implementation, so reviewing the logic, considering potential side effects, and testing changes are essential.
+* Task breakdown: Breaking complex problems into smaller steps makes it easier to investigate issues and evaluate possible solutions.
+* Responsible AI use: AI can assist with development, but the developer remains responsible for validating the output and ensuring the final implementation works as expected.
