@@ -15,7 +15,7 @@
 - **Completion badges:**
   - https://academy.claude.com/badges/1a1003ff-57a1-4aef-af8d-4a45a4238db4
   - https://academy.claude.com/verify/8540d73148d263062b3487463bdd0245
-- **LinkedIn post:** <link>
+- **LinkedIn post:** https://lnkd.in/p/gJw8m7xp
 
 ## My artifact
 
