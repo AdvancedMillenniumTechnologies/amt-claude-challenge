@@ -14,9 +14,9 @@
 ## Proof
 
 - **Completion badges:**
-  - [claude-code-in-action-badge.png](claude-code-in-action-badge.png)
-  - [claude-101-badge.png](claude-101-badge.png)
-  - [AI-Fluency-Framework-and-foundations-badge.png](AI-Fluency-Framework-and-foundations-badge.png)
+  - [claude-code-in-action-badge.png](claude-code-in-action-badge.png)([verify online](https://academy.claude.com/verify/d0ab7a80e697e8c2820a0e496d2820ff))
+  - [claude-101-badge.png](claude-101-badge.png)([verify online](https://academy.claude.com/verify/3bae740bc268674b0fc9621b5fabdf46))
+  - [AI-Fluency-Framework-and-foundations-badge.png](AI-Fluency-Framework-and-foundations-badge.png)([verify online](https://academy.claude.com/verify/997f8ed781c77c6db6924b902417effc))
 - **LinkedIn post:** https://lnkd.in/p/grfZwqjM
 
 ![Claude Code in Action — course completion badge](claude-code-in-action-badge.png)
